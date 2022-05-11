@@ -1,0 +1,973 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+
+#home{
+    height: 100vh;
+    background-image: url(images/slider-01.jpg);
+    background-size: 100% 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.home2{
+    background-color: rgba(0,0 , 0, 0.8);
+    width: 100%;
+    height: 100%;
+    }
+
+    .home3{
+        width: 85%;
+        height: 100%;
+        margin: auto;
+    }
+
+#home .navbar{
+    position: fixed;
+    background-color: rgba(0,0 , 0, 0.7);
+    width: 100%;
+    left: 0px;
+    padding: 0px 40px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+#home .navbar .navlogo{
+    color: rgb(255, 48, 91);
+    font-size: 18px;
+    font-weight: 800;
+    padding: 18px 0px;
+    float: left;
+}
+
+ ul{
+    list-style-type: none;
+    padding: 20px 0px;
+}
+
+#home li{
+    float: left;
+    padding: 0px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 300;
+   
+}
+
+a:hover{
+    color: rgb(255, 48, 91);
+}
+
+#home .navbar .navlinks{
+    float: right;
+}
+
+.caption{
+    color: white;
+    text-align: center;
+    padding: 230px 0px;
+}
+.caption h3{
+    padding: 8px;
+    font-size: 24px;
+}
+.caption h1{
+    color: rgb(255, 48, 91);
+    font-size: 70px;
+}
+.caption p{
+    font-size: 28px;
+    padding: 2px 0;
+}
+
+#about .about1{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        padding: 100px 0px;
+}
+
+.about1logo{
+    width: 50%;
+    float: left;
+
+}
+
+.about1logobrdr{
+    width: 350px;
+    height: 410px;
+     position: relative;
+     border: 8px solid rgb(85, 84, 84);
+     border-radius: 5px;
+}
+
+#about .about1logoimg{
+    position: relative;
+}
+#about .logohover{
+    width: 100%;
+    height: 104%;
+    position: absolute;
+    top:104%;
+    left: 15px;
+    background-color: rgba(85, 84, 84,0.6);
+    opacity: 0;
+    transition:all 1s ;
+}
+.logohover li{display: inline;
+}
+
+.logohover ul {
+text-align: center;
+}  
+   
+
+
+#about .about1logo:hover .logohover{
+    top: 18px;
+    opacity: 1;
+}
+.about1logoimg img{
+    position: absolute;
+     width: 100%;
+     top: 15px;
+    left: 15px;
+}
+
+
+.about1caption{
+    width: 50%;
+    float: left;
+}
+
+.about1caption hr{
+     border-style: dashed;
+     color: gray;
+}
+
+.about1caption p{
+    padding: 30px 0px;
+    color: gray;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about1caption h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#about .captioninfo h4{
+    font-size: 16px;
+}
+#about .captioninfo span{
+    color: gray;
+    font-size: 16px;
+}
+#about .captioninfo button{
+    background-color: rgb(255, 48, 91);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+#about .info1{
+    float: left;
+    padding:0px 20px;
+    line-height: 40px;
+}
+#about .info2{
+    float: left;
+    padding:0px 20px;
+    line-height: 40px;
+}
+
+
+
+#services{
+    background-color:rgb(241, 241, 241);
+    
+}
+
+#services .ourservices{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.ourservices1{
+    text-align: center;
+}
+ 
+.ourservices h2{
+    font-size: 45px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ourservices .line1{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+    
+}
+.ourservices .line2{
+    width:18%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+}
+.ourservices .line3{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin: 4px auto ;
+    
+}
+
+#services .design1{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 50px 0px;
+    transition: 1s;
+}
+#services .app{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 50px 0px;
+    transition: 1s;
+}
+#services .product{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 50px 0px;
+    transition: 1s;
+}
+#services .design2{
+    text-align: center;
+    width: 25%;
+    float: left;
+    padding: 50px 0px;
+    transition: 1s;
+}
+
+#services h3{
+    padding: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#services p{
+    padding: 10px;
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#services img{
+    transition-duration: 1s;}
+
+.design1:hover{
+    background-color: white;
+}
+
+.design1:hover img{
+    transform: scale(1.2);
+}
+
+.app:hover{
+    background-color: white;
+}
+
+.app:hover img{
+    transform: scale(1.2);
+}
+
+.product:hover{
+    background-color: white;
+}
+
+.product:hover img{
+    transform: scale(1.2);
+}
+
+.design2:hover{
+    background-color: white;
+}
+
+.design2:hover img{
+    transform: scale(1.2);
+}
+
+
+
+#portfolio .ourportfolio{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.ourportfolio .line1{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+    
+}
+.ourportfolio .line2{
+    width:18%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+}
+.ourportfolio .line3{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin: 4px auto ;
+    
+}
+
+.ourportfolio1{
+    text-align: center;
+}
+ 
+.ourportfolio h2{
+    font-size: 45px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ourportfolio1 ul{
+    text-align: center;
+}
+ 
+.ourportfolio1 li{
+    display: inline;
+    padding:20px 10px;
+}
+
+#portfolio img{
+    width: 100%;
+}
+
+
+
+#portfolio .prod1{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.prod1hover{
+    background-color:rgba(85, 84, 84,0.7) ;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all 1s;
+}
+.prod1:hover .prod1hover{
+    opacity: 1;
+}
+
+
+
+#portfolio .prod2{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;}
+ .prod2hover{
+        background-color:rgba(85, 84, 84,0.7) ;
+        width: 95%;
+        height: 95%;
+        position: absolute;
+        top: 7px;
+        opacity: 0;
+        transition: all 1s;
+    }
+.prod2:hover .prod2hover{
+    opacity: 1;
+}
+ 
+#portfolio .prod3{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.prod3hover{
+    background-color:rgba(85, 84, 84,0.7) ;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all 1s;
+}
+.prod3:hover .prod3hover{
+opacity: 1;
+}
+#portfolio .prod4{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.prod4hover{
+    background-color:rgba(85, 84, 84,0.7) ;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all 1s;
+}
+.prod4:hover .prod4hover{
+opacity: 1;
+}
+#portfolio .prod5{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.prod5hover{
+    background-color:rgba(85, 84, 84,0.7) ;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all 1s;
+}
+.prod5:hover .prod5hover{
+opacity: 1;
+}
+#portfolio .prod6{
+    width: 33.3%;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.prod6hover{
+    background-color:rgba(85, 84, 84,0.7) ;
+    width: 95%;
+    height: 95%;
+    position: absolute;
+    top: 7px;
+    opacity: 0;
+    transition: all 1s;
+}
+.prod6:hover .prod6hover{
+opacity: 1;
+}
+
+
+#count{
+    background-color:rgb(241, 241, 241);
+
+}
+#count .count1{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+
+#count .members{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#count .projects{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#count .download{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#count .code{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#count h3{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+#count p{
+    color: gray;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+
+#testimonial .testimonial1{
+    width: 85%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.testimonial1 .line1{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+    
+}
+.testimonial1 .line2{
+    width:18%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin:4px auto ;
+}
+.testimonial1 .line3{
+    width: 8%;
+    height: 1px;
+    background-color:  rgb(255, 48, 91);
+    margin: 4px auto ;
+    
+}
+
+.testimonial1{
+    text-align: center;
+}
+ 
+.testimonial1 h2{
+    font-size: 45px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+    #testimonial .feedback{
+
+     border-left: 120px solid rgb(255, 48, 91);
+    border-bottom:  250px solid rgb(241, 241, 241);
+    width: 70%;
+    height: 250px;
+    margin:30px auto;
+     
+    }
+
+    #testimonial img{
+        width: 30%;
+        float: left;
+        padding: 40px;
+    
+    }
+    #testimonial img{
+        
+        border-radius: 50%;
+    }
+
+    #testimonial .feedbackdetails{
+        width: 70%;
+        float: left;
+        padding: 40px;
+        text-align: left;
+    }
+
+    #testimonial .feedbackdetails h3 ,h5 ,p{
+        padding: 10px 0px;
+    }
+
+    #testimonial .feedbackdetails ,h5 ,p{
+        color: rgb(94, 92, 92);
+        line-height: 20px;
+    }
+
+
+    #blog{
+        background-color: rgb(241, 241, 241);
+        overflow: hidden;
+    }
+    #blog .ourblog{
+            width: 85%;
+            margin: auto;
+            padding: 50px 0px;
+        }
+
+
+        .ourblog .line1{
+            width: 8%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin:4px auto ;
+            
+        }
+        .ourblog .line2{
+            width:18%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin:4px auto ;
+        }
+        .ourblog .line3{
+            width: 8%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin: 4px auto ;
+            
+        }
+        
+        .ourblog{
+            text-align: center;
+        }
+         
+        .ourblog h2{
+            font-size: 45px;
+            padding: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }        
+
+      #blog .ourblog img{
+          width: 100%;
+      }  
+      #blog .ourblog video{
+          width: 100%;
+          height:auto;
+      }
+      #blog .ourblogs{
+          color: gray;
+          text-align: left;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .ourblogs h3{
+          color: black;padding: 10px;
+         
+      }
+      .ourblogs a{
+       color: gray;
+    
+      }
+      .ourblogs h4{
+        padding: 10px;
+        color: gray;
+       }
+      .ourblogs p{
+        padding: 10px;
+        font-size: 18px;
+      }
+      #blog .ourblog1{
+          float: left;
+          width: 32%;
+          background-color: white;
+          margin: 7px;
+          
+          
+      }
+      #blog .ourblog2{
+        float: left;
+        width: 32%;
+        background-color: white;
+        margin: 7px;
+    }
+    #blog .ourblog3{
+        float: left;
+        width: 32%;
+        background-color: white;
+        margin: 7px;
+    }
+
+    .ourblogs h3:hover {
+        color:rgb(255, 48, 91);
+    }
+    .ourblogs .read:hover {
+        color:rgb(255, 48, 91);
+    }
+
+
+
+    #contact .contactus{
+            width: 85%;
+            height: auto;
+            margin: auto;
+            padding: 50px 0px;
+        }
+
+        .contactus .line1{
+            width: 8%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin:4px auto ;
+            
+        }
+        .contactus .line2{
+            width:18%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin:4px auto ;
+        }
+        .contactus .line3{
+            width: 8%;
+            height: 1px;
+            background-color:  rgb(255, 48, 91);
+            margin: 4px auto ;
+            
+        }
+        .contactus h2{
+            text-align: center;
+            font-size: 45px;
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #contact .form{
+            width: 80%;
+            height: auto;
+            margin: 10px auto;
+        }
+        #contact .name input{ 
+            width: 47%;
+            float: left;
+            padding: 10px;
+            margin: 10px 10px;
+            
+        }
+        #contact .email input{
+            width: 47%;
+            float: left;
+            padding: 10px;
+            margin: 10px 10px;
+        }
+        #contact .subject input{
+            width: 97%;
+            padding: 10px;
+            margin: 10px 10px;
+        }
+
+        #contact .msg textarea{
+            width: 97%;
+            padding: 10px;
+            margin: 10px 10px;
+        }
+        #contact .btn button{
+            padding: 10px 12px;
+            margin: 10px 10px;
+            color: white;
+            background-color: rgb(255, 48, 91);
+            border: none;
+            border-radius: 4px;
+        }
+        #footer{
+            background-color: rgb(51, 51, 51);
+        }
+        #footer li{display: inline;
+                }
+
+        #footer ul {
+            text-align: center;
+        }  
+        #footer p{
+           text-align: center;
+           color: white;
+           padding-bottom: 40px;
+
+        }     
+         .fa {
+            padding-top: 40px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+          }
+          
+          .fa:hover {
+            opacity: 0.7;
+          }
+
+          #footer p a{
+            color:rgb(255, 48, 91);
+          }
+
+
+
+          @media screen and (max-width:568px){
+               #about .about1{
+                  width:100%;
+              }
+              #about .about1caption{
+                  width: 100%;
+              }
+              #services .design1{
+                  width: 100%;
+              }
+              #services .app{
+                width: 100%;
+            }
+            #services .product{
+                width: 100%;
+            }
+            #services .design2{
+                width: 100%;
+            }
+            #portfolio .prod1{
+                width: 100%;
+            }
+            #portfolio .prod2{
+                width: 100%;
+            }
+            #portfolio .prod3{
+                width: 100%;
+            }
+            #portfolio .prod4{
+                width: 100%;
+            }
+            #portfolio .prod5{
+                width: 100%;
+            }
+            #portfolio .prod6{
+                width: 100%;
+            }
+            #count .members{
+                width: 100%;
+            }
+            #count .projects{
+                width: 100%;
+            }
+            #count .download{
+                width: 100%;
+                
+            }
+            #count .code{
+                width: 100%;
+            }
+            #testimonial .feedback{
+                height: auto;
+            }
+            #testimonial img{
+                width: 100%
+            }
+            #testimonial .feedbackdetails{
+                width: 100%;
+            }
+            #blog .ourblog1{
+                width: 100%;
+            }
+            #blog .ourblog2{
+                width: 100%;
+            }
+            #blog .ourblog3{
+                width: 100%;
+            }
+            #contact .name input{ 
+                width: 100%;   
+            }
+            #contact .email input{
+                width: 100%;  
+            }
+            #contact .subject input{
+                width: 100%;
+            }
+    
+            #contact .msg textarea{
+                width: 100%;
+            }
+          }
+
+          @media screen and(min-width:569px) and(max-width:768)
+          {
+            #about .about1{
+                width:50%;
+            }
+            #about .about1caption{
+                width: 50%;
+            }
+            #services .design1{
+                width: 50%;
+            }
+            #services .app{
+              width: 50%;
+          }
+          #services .product{
+              width: 50%;
+          }
+          #services .design2{
+              width: 50%;
+          }
+          #portfolio .prod1{
+              width: 50%;
+          }
+          #portfolio .prod2{
+              width: 50%;
+          }
+          #portfolio .prod3{
+              width: 50%;
+          }
+          #portfolio .prod4{
+              width: 50%;
+          }
+          #portfolio .prod5{
+              width: 50%;
+          }
+          #portfolio .prod6{
+              width: 50%;
+          }
+          #count .members{
+              width: 50%;
+          }
+          #count .projects{
+              width: 50%;
+          }
+          #count .download{
+              width: 50%;
+              
+          }
+          #count .code{
+              width: 50%;
+          }
+          #testimonial .feedback{
+              height: auto;
+          }
+          #testimonial img{
+              width: 50%
+          }
+          #testimonial .feedbackdetails{
+              width: 50%;
+          }
+          #blog .ourblog1{
+              width: 32%;
+          }
+          #blog .ourblog2{
+              width: 32%;
+          }
+          #blog .ourblog3{
+              width: 32%;
+          }
+          #contact .name input{ 
+              width: 100%;   
+          }
+          #contact .email input{
+              width: 100%;  
+          }
+          #contact .subject input{
+              width: 100%;
+          }
+  
+          #contact .msg textarea{
+              width: 100%;
+          }
+          }
